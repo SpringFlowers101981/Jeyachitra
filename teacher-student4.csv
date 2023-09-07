@@ -1,0 +1,125 @@
+quizName,totalScore,passingPercentage,question1,question2,question3
+Test quiz 1,18,75,"
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""What is your name?"",
+      ""score"": 5
+  }
+","{
+      ""type"": ""SINGLE_CHOICE"",
+      ""question"": ""Which city is city largest in California?"",
+      ""score"": 7,
+      ""answer"": 2,
+      ""hasOtherOption"": false,
+      ""options"": [
+        ""San Francisco"",
+        ""Sacramento"",
+        ""Los Angeles"",
+        ""Redding""
+      ]
+    }","{
+      ""type"": ""MULTIPLE_CHOICE"",
+      ""question"": ""Who was apple founded by?"",
+      ""score"": 6,
+      ""answers"": [
+        0,
+        1,
+        2
+      ],
+      ""hasOtherOption"": true,
+      ""options"": [
+        ""Steve Jobs"",
+        ""Steve Wozniak"",
+        ""Ronald Wayne"",
+        ""Ronald Reagan""
+      ]
+    }"
+Test quiz with some longer name,10,70,"
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""Explain sun"",
+      ""score"": 5
+    }
+","{
+      ""type"": ""SINGLE_CHOICE"",
+      ""question"": ""Which city is city largest in Country?"",
+      ""score"": 7,
+      ""answer"": 2,
+      ""hasOtherOption"": false,
+      ""options"": [
+        ""China"",
+        ""Russia"",
+        ""USA"",
+        ""Canada""
+      ]
+    }","{
+      ""type"": ""MULTIPLE_CHOICE"",
+      ""question"": ""Who was apple look like?"",
+      ""score"": 6,
+      ""answers"": [
+        0,
+        1,
+        2
+      ],
+      ""hasOtherOption"": true,
+      ""options"": [
+        ""Red"",
+        ""Blue"",
+        ""orange"",
+        ""White""
+      ]
+    }"
+Test quiz to check special chars %$,15,90,"
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""Tell me about yourself @#$"",
+      ""score"": 5
+    }
+","{
+      ""type"": ""SINGLE_CHOICE"",
+      ""question"": ""Which city is city largest in Country 2341?"",
+      ""score"": 7,
+      ""answer"": 2,
+      ""hasOtherOption"": false,
+      ""options"": [
+        ""China"",
+        ""Russia"",
+        ""USA"",
+        ""Canada""
+      ]
+    }","{
+      ""type"": ""MULTIPLE_CHOICE"",
+      ""question"": ""Who was apple look like?"",
+      ""score"": 6,
+      ""answers"": [
+        0,
+        1,
+        2
+      ],
+      ""hasOtherOption"": true,
+      ""options"": [
+        ""@#$"",
+        ""$#$@"",
+        ""%^#@#"",
+       
+      ]
+    }"
+Test quiz to check TEXTUAL questions only,15,85,"
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""What is your name?"",
+      ""score"": 5
+    }
+","
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""What is your city name?"",
+      ""score"": 5
+    }
+","
+    {
+      ""type"": ""TEXTUAL"",
+      ""question"": ""What is your favourite car?"",
+      ""score"": 5
+    }
+"
