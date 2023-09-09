@@ -73,9 +73,21 @@
 			"value": "",
 			"type": "any",
 			"enabled": true
+		},
+		{
+			"key": "Fun_studentId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Fun_activationCode",
+			"value": "",
+			"type": "any",
+			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2023-09-07T20:59:13.722Z",
+	"_postman_exported_at": "2023-09-09T19:15:16.818Z",
 	"_postman_exported_using": "Postman/10.15.8"
 }
